@@ -1,8 +1,8 @@
 # EDOPro Custom Cards
 
-Custom cards that I've created for [EDOPro](edopro). These cards are not official and are not intended to be used in official tournaments.
+Custom cards that I've created for [EDOPro][edopro]. These cards are not official and are not intended to be used in official tournaments.
 
-Those cards were created and are managed using [YGOFabrica](ygofabrica).
+Those cards were created and are managed using [YGOFabrica][ygofabrica].
 
 ## Installation
 
@@ -28,10 +28,10 @@ ygofab sync
 
 ## Credits
 
-* [Edoardo Lolletti](edo9300): Creator of [EDOPro](edopro)
-* [Henrique Santana](piface314): Creator of [YGOFabrica](ygofabrica)
-* [YGOProDeck](ygoprodeck): Used to get some card artworks
-* [Yu-Gi-Oh! CardMaker](ygocardmaker): Used to create the card pictures
+* [Edoardo Lolletti][edo9300]: Creator of [EDOPro][edopro]
+* [Henrique Santana][piface314]: Creator of [YGOFabrica][ygofabrica]
+* [YGOProDeck][ygoprodeck]: Used to get some card artworks
+* [Yu-Gi-Oh! CardMaker][ygocardmaker]: Used to create the card pictures
 
 [edopro]: https://github.com/edo9300/edopro
 [edo9300]: https://github.com/edo9300
