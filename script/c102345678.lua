@@ -17,8 +17,11 @@ function s.initial_effect(c)
 	e4:SetOperation(s.sumsuc)
 	c:RegisterEffect(e4)
   --unaffected by opponent card effects
-  local e5=Effect.CreateEffect(c)
+  	local e5=Effect.CreateEffect(c)
+	e5:SetType(EFFECT_TYPE_SINGLE)
 	e5:SetCode(EFFECT_IMMUNE_EFFECT)
+	e5:SetProperty(EFFECT_FLAG_SINGLE_RANGE)
+	e5:SetRange(LOCATION_MZONE)
 	e5:SetValue(s.unval)
 	c:RegisterEffect(e5)
   --to grave

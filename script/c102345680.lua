@@ -16,12 +16,15 @@ function s.initial_effect(c)
 	e4:SetCode(EVENT_SUMMON_SUCCESS)
 	e4:SetOperation(s.sumsuc)
 	c:RegisterEffect(e4)
-	--unaffected by opponent card effects
+  --unaffected by opponent card effects
   	local e5=Effect.CreateEffect(c)
+	e5:SetType(EFFECT_TYPE_SINGLE)
 	e5:SetCode(EFFECT_IMMUNE_EFFECT)
+	e5:SetProperty(EFFECT_FLAG_SINGLE_RANGE)
+	e5:SetRange(LOCATION_MZONE)
 	e5:SetValue(s.unval)
 	c:RegisterEffect(e5)
-	--to grave
+  --to grave
 	local e6=Effect.CreateEffect(c)
 	e6:SetDescription(aux.Stringid(110000010,0))
 	e6:SetCategory(CATEGORY_TOGRAVE)
@@ -34,20 +37,20 @@ function s.initial_effect(c)
 	e6:SetTarget(s.tgtg)
 	e6:SetOperation(s.tgop)
 	c:RegisterEffect(e6)
-	--tribute check
+  --tribute check
 	local e7=Effect.CreateEffect(c)
 	e7:SetType(EFFECT_TYPE_SINGLE)
 	e7:SetCode(EFFECT_MATERIAL_CHECK)
 	e7:SetValue(s.valcheck)
 	c:RegisterEffect(e7)
-	--give atk effect only when summon
+  --give atk effect only when summon
 	local e8=Effect.CreateEffect(c)
 	e8:SetType(EFFECT_TYPE_SINGLE)
 	e8:SetCode(EFFECT_SUMMON_COST)
 	e8:SetOperation(s.facechk)
 	e8:SetLabelObject(e7)
 	c:RegisterEffect(e8)
-	--destroy
+  --destroy
 	local e9=Effect.CreateEffect(c)
 	e9:SetDescription(aux.Stringid(id,1))
 	e9:SetCategory(CATEGORY_DESTROY)
@@ -58,7 +61,7 @@ function s.initial_effect(c)
 	e9:SetTarget(s.destg)
 	e9:SetOperation(s.desop)
 	c:RegisterEffect(e9)
-	--pay atk/def
+  --pay atk/def
 	local e10=Effect.CreateEffect(c)
 	e10:SetDescription(aux.Stringid(id,2))
 	e10:SetCategory(CATEGORY_ATKCHANGE+CATEGORY_DEFCHANGE)
