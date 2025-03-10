@@ -1,22 +1,22 @@
 -- Slifer the Sky Dragon
 local s, id = GetID()
 function s.initial_effect(c)
-  --summon with 3 tribute
+  	--summon with 3 tribute
 	local e1=aux.AddNormalSummonProcedure(c,true,false,3,3)
 	local e2=aux.AddNormalSetProcedure(c)
-  --summon
+  	--summon
 	local e3=Effect.CreateEffect(c)
 	e3:SetType(EFFECT_TYPE_SINGLE)
 	e3:SetCode(EFFECT_CANNOT_DISABLE_SUMMON)
 	e3:SetProperty(EFFECT_FLAG_CANNOT_DISABLE+EFFECT_FLAG_UNCOPYABLE)
 	c:RegisterEffect(e3)
-  --summon success
+  	--summon success
 	local e4=Effect.CreateEffect(c)
 	e4:SetType(EFFECT_TYPE_SINGLE+EFFECT_TYPE_CONTINUOUS)
 	e4:SetCode(EVENT_SUMMON_SUCCESS)
 	e4:SetOperation(s.sumsuc)
 	c:RegisterEffect(e4)
-  --unaffected by opponent card effects
+  	--unaffected by opponent card effects
   	local e5=Effect.CreateEffect(c)
 	e5:SetType(EFFECT_TYPE_SINGLE)
 	e5:SetCode(EFFECT_IMMUNE_EFFECT)
@@ -24,20 +24,19 @@ function s.initial_effect(c)
 	e5:SetRange(LOCATION_MZONE)
 	e5:SetValue(s.unval)
 	c:RegisterEffect(e5)
-  --to grave
+  	--to grave
 	local e6=Effect.CreateEffect(c)
-	e6:SetDescription(aux.Stringid(110000010,0))
+	e6:SetDescription(aux.Stringid(id,0))
 	e6:SetCategory(CATEGORY_TOGRAVE)
 	e6:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_TRIGGER_F)
 	e6:SetRange(LOCATION_MZONE)
-	e6:SetProperty(EFFECT_FLAG_REPEAT)
 	e6:SetCountLimit(1)
 	e6:SetCode(EVENT_PHASE+PHASE_END)
 	e6:SetCondition(s.tgcon)
 	e6:SetTarget(s.tgtg)
 	e6:SetOperation(s.tgop)
 	c:RegisterEffect(e6)
-  --atk/def
+  	--atk/def
 	local e7=Effect.CreateEffect(c)
 	e7:SetType(EFFECT_TYPE_SINGLE)
 	e7:SetCode(EFFECT_UPDATE_ATTACK)
@@ -48,7 +47,7 @@ function s.initial_effect(c)
 	local e8=e7:Clone()
 	e8:SetCode(EFFECT_UPDATE_DEFENSE)
 	c:RegisterEffect(e8)
-  --defdown
+  	--defdown
 	local e9=Effect.CreateEffect(c)
 	e9:SetDescription(aux.Stringid(id,1))
 	e9:SetCategory(CATEGORY_DEFCHANGE+CATEGORY_DESTROY)
