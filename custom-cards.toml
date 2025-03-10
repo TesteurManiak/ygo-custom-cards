@@ -1,6 +1,7 @@
 [[card]]
 id = 102345678
 ot = "custom"
+alias = 10000000
 name = "Obelisk the Tormentor"
 attribute = "divine"
 race = "divine-beast"
@@ -16,6 +17,7 @@ author = "Maniak"
 [[card]]
 id = 102345679
 ot = "custom"
+alias = 10000020
 name = "Slifer the Sky Dragon"
 attribute = "divine"
 race = "divine-beast"
@@ -31,6 +33,7 @@ author = "Maniak"
 [[card]]
 id = 102345680
 ot = "custom"
+alias = 10000010
 name = "The Winged Dragon of Ra"
 attribute = "divine"
 race = "divine-beast"
