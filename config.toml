@@ -1,0 +1,18 @@
+# Use this to define local configurations for your project.
+# Any configuration defined here will override its global counterpart.
+# Global configurations are located in `%APPDATA%\YGOFabrica\config.toml`.
+
+locale = 'en'
+
+[expansion.ygo-custom-cards]
+default = true
+recipe = ['custom-cards.toml']
+
+[picset.regular]
+default = true
+mode = 'proxy'
+size = '512x'
+ext = 'jpg'
+field = true
+locale = 'en'
+author = 'Maniak'
