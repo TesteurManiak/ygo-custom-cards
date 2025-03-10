@@ -21,9 +21,9 @@ ygofab sync
 * :large_orange_diamond: -> Partially scripted
 * :x: -> Not scripted
 
-| Obelisk the Tormentor | The Winged Dragon of Ra | Slifer the Sky Dragon |
+| | | |
 |-----------------------|-------------------------|-----------------------|
-| :white_check_mark: | :large_orange_diamond: | :white_check_mark: |
+| Obelisk the Tormentor :white_check_mark: | The Winged Dragon of Ra :large_orange_diamond: | Slifer the Sky Dragon :white_check_mark: |
 | <img src="pics/regular/102345678.jpg" height="200" /> | <img src="pics/regular/102345680.jpg" height="200" /> | <img src="pics/regular/102345679.jpg" height="200" /> |
 
 ## Credits
