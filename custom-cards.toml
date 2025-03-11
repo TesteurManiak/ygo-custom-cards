@@ -26,7 +26,7 @@ atk = "?"
 def = "?"
 level = 10
 effect = '''
-Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. This card is unaffected by your opponent's card effects. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the GY. Gains 1000 ATK/DEF for each card in your hand. If a monster(s) is Normal or Special Summoned to your opponent's field: That monster(s) loses 2000 DEF, then if its DEF has been reduced to 0 as a result, destroy it.'''
+Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. This card is unaffected by your opponent's card effects. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the GY. Gains 1000 ATK/DEF for each card in your hand. If a monster(s) is Summoned to your opponent's field: That monster(s) loses 2000 ATK if it is in Attack Position, but 2000 DEF if it is in Defense Position, then if its affected ATK or DEF has been reduced to 0 as a result, destroy it.'''
 year = 2025
 author = "Maniak"
 
