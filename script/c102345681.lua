@@ -22,6 +22,7 @@ function s.initial_effect(c)
   e3:SetValue(s.ttcon)
   c:RegisterEffect(e3)
 end
+s.listed_names={CARD_OBELISK, CARD_SLIFER, CARD_RA}
 function s.thfilter(c)
   return not c:IsCode(id) and (c:IsCode(10000000, 10000010, 10000020) or c:ListsCode(CARD_OBELISK, CARD_SLIFER, CARD_RA)) and c:IsAbleToHand()
 end
