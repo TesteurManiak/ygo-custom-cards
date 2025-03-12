@@ -15,12 +15,15 @@ function s.initial_effect(c)
   local e2 = e1:Clone()
   e2:SetCode(EVENT_SPSUMMON_SUCCESS)
   c:RegisterEffect(e2)
-  --triple tribute for divine-beast
+  --triple tribute
   local e3 = Effect.CreateEffect(c)
   e3:SetType(EFFECT_TYPE_SINGLE)
   e3:SetCode(EFFECT_TRIPLE_TRIBUTE)
   e3:SetValue(s.ttcon)
   c:RegisterEffect(e3)
+  --tribute summon
+  local e4 = Effect.CreateEffect(c)
+  c:RegisterEffect(e4)
 end
 s.listed_names={CARD_OBELISK, CARD_SLIFER, CARD_RA}
 function s.thfilter(c)

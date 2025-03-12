@@ -35,7 +35,7 @@ ygofab sync
 * [Edoardo Lolletti][edo9300]: Creator of [EDOPro][edopro]
 * [Henrique Santana][piface314]: Creator of [YGOFabrica][ygofabrica]
 * [YGOProDeck][ygoprodeck]: Used to get some card artworks
-* [Yu-Gi-Oh! CardMaker][ygocardmaker]: Used to create the card pictures
+* [Yu-Gi-Oh! CardMaker][ygocardmaker] & [YUGILIFE][yugilife]: Used to create the card pictures
 * [Card-Majin][cardmajin] & [KaiMagination][kaimagination]: New egyptian god cards artworks and effects
 
 [edopro]: https://github.com/edo9300/edopro
@@ -44,6 +44,7 @@ ygofab sync
 [ygofabrica]: https://github.com/piface314/ygo-fabrica
 [ygoprodeck]: https://ygoprodeck.com/
 [ygocardmaker]: https://www.cardmaker.net/yugioh/
+[yugilife]: https://alixsep.github.io/yugilife/#/build
 [cardmajin]: https://www.reddit.com/user/Card-Maijn/
 [kaimagination]: https://www.deviantart.com/kaimagination2500
 
