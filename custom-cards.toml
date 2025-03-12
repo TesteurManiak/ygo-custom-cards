@@ -45,3 +45,28 @@ effect = '''
 Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. This card is unaffected by your opponent's card effects. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the GY. This card's ATK/DEF are equal to the combined ATK/DEF of the Tributes. When this card is Special Summoned: You can pay LP so that you have 100 left; this card gains ATK/DEF equal to the amount of LP paid. You can pay 1000 LP, then target 1 monster on the field; destroy that target.'''
 year = 2025
 author = "Maniak"
+
+[[card]]
+id = 102345681
+ot = "custom"
+name = "Nameless Pharaoh"
+attribute = "light"
+race = "spellcaster"
+type = "monster effect"
+atk = "0"
+def = "0"
+level = 1
+effect = '''
+This card can be Treated as 3 Tributes for a Tribute Summon of a Divine-Beast monster. If this card is Normal or Special Summoned: You can add 1 “Slifer the Sky Dragon”, “Obelisk the Tormentor”, or “The Winged Dragon of Ra” OR 1 card that mentions any of those cards in its text from your Deck or GY to your hand, except “Nameless Pharaoh“. During your Main Phase (Quick Effect): You can Tribute Summon 1 Level 10 monster with ? or 4000 DEF from your hand. You can use each effect of “Nameless Pharaoh” once per turn.'''
+year = 2024
+author = "Card-Majin"
+
+[[card]]
+id = 102345682
+ot = "custom"
+name = "Shrine of Djeser"
+type = "spell field"
+effect = '''
+When this card is activated: You can add 1 DIVINE monster from your Deck or GY to your hand. You can only use this effect of “Pharaoh’s Palace” once per turn. Tribute Summoned “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and “The Winged Dragon of Ra” in your Monster Zone are unaffected by your opponent's activated non-DIVINE monster effects and Spell/Trap Card effects. Once per turn, at the start of the Battle Phase: You can Special Summon 1 Divine-Beast monster from your hand, ignoring their Summoning conditions. You can activate only 1 “Pharaoh’s Palace” per turn.'''
+year = 2024
+author = "Card-Majin"
