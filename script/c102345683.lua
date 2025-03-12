@@ -7,3 +7,4 @@ function s.initial_effect(c)
   e1:SetCode(EVENT_FREE_CHAIN)
   c:RegisterEffect(e1)
 end
+s.listed_names={CARD_OBELISK, CARD_SLIFER, CARD_RA}

@@ -10,6 +10,7 @@ function s.initial_effect(c)
   e1:SetOperation(s.activate)
   c:RegisterEffect(e1)
 end
+s.listed_names={CARD_OBELISK, CARD_SLIFER, CARD_RA}
 function s.thfilter(c)
   return c:IsMonster() and c:IsAttribute(ATTRIBUTE_DIVINE) and c:IsAbleToHand()
 end
