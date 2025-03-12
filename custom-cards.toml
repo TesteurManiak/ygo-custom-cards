@@ -70,3 +70,26 @@ effect = '''
 When this card is activated: You can add 1 DIVINE monster from your Deck or GY to your hand. You can only use this effect of “Pharaoh’s Palace” once per turn. Tribute Summoned “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and “The Winged Dragon of Ra” in your Monster Zone are unaffected by your opponent's activated non-DIVINE monster effects and Spell/Trap Card effects. Once per turn, at the start of the Battle Phase: You can Special Summon 1 Divine-Beast monster from your hand, ignoring their Summoning conditions. You can activate only 1 “Shrine of Djeser” per turn.'''
 year = 2024
 author = "Card-Majin"
+
+[[card]]
+id = 102345683
+ot = "custom"
+name = "God's Anger"
+type = "spell continuous"
+effect = '''
+Once per turn, if you control a monster whose original type is Divine-Beast: You can add 1 Spell/Trap Card that specifically lists “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and/or “The Winged Dragon of Ra”: in its text, from your Deck to your hand. You can Tribute Summon 1 Divine-Beast monster in addition to your Normal Summon/Set. (You only gain this effect once per turn.) “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and “The Winged Dragon of Ra” you control cannot activate their effects during the End Phase, also, your opponent cannot Tribute nor use them as material for a Fusion, Synchro, Xyz, or Link Summon.'''
+year = 2024
+author = "Card-Majin"
+
+[[card]]
+id = 102345684
+ot = "custom"
+name = "Hyper GOD Energy"
+type = "trap continuous"
+effect = '''
+If you control a Divine-Beast monster, you can activate this card the turn it was Set. When your opponent activates a card or effect, depending on the names of monsters you control, you can use each of the following effects of “Hyper God Energy!” once per turn:
+●"Slifer the Sky Dragon": Discard 1 card; negate the activation, and if you do, all monsters your opponent currently controls lose 1000 ATK and DEF.
+●"Obelisk the Tormentor": Tribute up to 2 other monsters, negate the activation, and if you do, inflict damage 2000 to your opponent for each Tributed monster.
+●"The Winged Dragon of Ra": Pay 1000 LP; negate the activation, and if you do, it gains 1000 ATK/DEF.'''
+year = 2024
+author = "Card-Majin"
