@@ -1,3 +1,7 @@
+[set.egyptiangods]
+name = "Egyptian Gods"
+code = 0x10db
+
 [[card]]
 id = 102345678
 ot = "custom"
@@ -50,6 +54,7 @@ author = "Maniak"
 id = 102345681
 ot = "custom"
 name = "Nameless Pharaoh"
+set = "egyptiangods"
 attribute = "light"
 race = "spellcaster"
 type = "monster effect"
@@ -65,6 +70,7 @@ author = "Card-Majin"
 id = 102345682
 ot = "custom"
 name = "Shrine of Djeser"
+set = "egyptiangods"
 type = "spell field"
 effect = '''
 When this card is activated: You can add 1 DIVINE monster from your Deck or GY to your hand. You can only use this effect of “Pharaoh’s Palace” once per turn. Tribute Summoned “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and “The Winged Dragon of Ra” in your Monster Zone are unaffected by your opponent's activated non-DIVINE monster effects and Spell/Trap Card effects. Once per turn, at the start of the Battle Phase: You can Special Summon 1 Divine-Beast monster from your hand, ignoring their Summoning conditions. You can activate only 1 “Shrine of Djeser” per turn.'''
@@ -75,6 +81,7 @@ author = "Card-Majin"
 id = 102345683
 ot = "custom"
 name = "God's Anger"
+set = "egyptiangods"
 type = "spell continuous"
 effect = '''
 Once per turn, if you control a monster whose original type is Divine-Beast: You can add 1 Spell/Trap Card that specifically lists “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and/or “The Winged Dragon of Ra”: in its text, from your Deck to your hand. You can Tribute Summon 1 Divine-Beast monster in addition to your Normal Summon/Set. (You only gain this effect once per turn.) “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and “The Winged Dragon of Ra” you control cannot activate their effects during the End Phase, also, your opponent cannot Tribute nor use them as material for a Fusion, Synchro, Xyz, or Link Summon.'''
@@ -85,6 +92,7 @@ author = "Card-Majin"
 id = 102345684
 ot = "custom"
 name = "Hyper GOD Energy"
+set = "egyptiangods"
 type = "trap continuous"
 effect = '''
 If you control a Divine-Beast monster, you can activate this card the turn it was Set. When your opponent activates a card or effect, depending on the names of monsters you control, you can use each of the following effects of “Hyper God Energy!” once per turn:
