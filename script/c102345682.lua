@@ -9,6 +9,12 @@ function s.initial_effect(c)
   e1:SetCountLimit(1,id,EFFECT_COUNT_CODE_OATH)
   e1:SetOperation(s.activate)
   c:RegisterEffect(e1)
+  -- protect tribute summoned gods
+  local e2=Effect.CreateEffect(c)
+  c:RegisterEffect(e2)
+  -- battle phase summon
+  local e3=Effect.CreateEffect(c)
+  c:RegisterEffect(e3)
 end
 s.listed_names={CARD_OBELISK, CARD_SLIFER, CARD_RA}
 function s.thfilter(c)
