@@ -25,13 +25,18 @@ ygofab sync
 |-----------------------|-------------------------|-----------------------|
 | Obelisk the Tormentor :white_check_mark: | The Winged Dragon of Ra :white_check_mark: | Slifer the Sky Dragon :white_check_mark: |
 | <img src="pics/regular/102345678.jpg" height="200" /> | <img src="pics/regular/102345680.jpg" height="200" /> | <img src="pics/regular/102345679.jpg" height="200" /> |
+| Nameless Pharaoh :white_check_mark: | Shrine of Djeser :large_orange_diamond: | God's Anger :x: |
+| <img src="pics/regular/102345681.jpg" height="200" /> | <img src="pics/regular/102345682.jpg" height="200" /> | <img src="pics/regular/102345683.jpg" height="200" /> |
+| Hyper GOD Energy :x: | | |
+| <img src="pics/regular/102345684.jpg" height="200" /> | | |
 
 ## Credits
 
 * [Edoardo Lolletti][edo9300]: Creator of [EDOPro][edopro]
 * [Henrique Santana][piface314]: Creator of [YGOFabrica][ygofabrica]
 * [YGOProDeck][ygoprodeck]: Used to get some card artworks
-* [Yu-Gi-Oh! CardMaker][ygocardmaker]: Used to create the card pictures
+* [Yu-Gi-Oh! CardMaker][ygocardmaker] & [YUGILIFE][yugilife]: Used to create the card pictures
+* [Card-Majin][cardmajin] & [KaiMagination][kaimagination]: New egyptian god cards artworks and effects
 
 [edopro]: https://github.com/edo9300/edopro
 [edo9300]: https://github.com/edo9300
@@ -39,3 +44,7 @@ ygofab sync
 [ygofabrica]: https://github.com/piface314/ygo-fabrica
 [ygoprodeck]: https://ygoprodeck.com/
 [ygocardmaker]: https://www.cardmaker.net/yugioh/
+[yugilife]: https://alixsep.github.io/yugilife/#/build
+[cardmajin]: https://www.reddit.com/user/Card-Maijn/
+[kaimagination]: https://www.deviantart.com/kaimagination2500
+

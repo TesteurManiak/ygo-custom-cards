@@ -1,3 +1,4 @@
+
 [[card]]
 id = 102345678
 ot = "custom"
@@ -45,3 +46,51 @@ effect = '''
 Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. This card is unaffected by your opponent's card effects. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the GY. This card's ATK/DEF are equal to the combined ATK/DEF of the Tributes. When this card is Special Summoned: You can pay LP so that you have 100 left; this card gains ATK/DEF equal to the amount of LP paid. You can pay 1000 LP, then target 1 monster on the field; destroy that target.'''
 year = 2025
 author = "Maniak"
+
+[[card]]
+id = 102345681
+ot = "custom"
+name = "Nameless Pharaoh"
+attribute = "light"
+race = "spellcaster"
+type = "monster effect"
+atk = "0"
+def = "0"
+level = 1
+effect = '''
+This card can be Treated as 3 Tributes for a Tribute Summon of a Divine-Beast monster. If this card is Normal or Special Summoned: You can add 1 “Slifer the Sky Dragon”, “Obelisk the Tormentor”, or “The Winged Dragon of Ra” OR 1 card that mentions any of those cards in its text from your Deck or GY to your hand, except “Nameless Pharaoh“. During your Main Phase (Quick Effect): You can Tribute Summon 1 Level 10 monster with ? or 4000 DEF from your hand. You can use each effect of “Nameless Pharaoh” once per turn.'''
+year = 2024
+author = "Card-Majin"
+
+[[card]]
+id = 102345682
+ot = "custom"
+name = "Shrine of Djeser"
+type = "spell field"
+effect = '''
+When this card is activated: You can add 1 DIVINE monster from your Deck or GY to your hand. You can only use this effect of “Pharaoh’s Palace” once per turn. Tribute Summoned “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and “The Winged Dragon of Ra” in your Monster Zone are unaffected by your opponent's activated non-DIVINE monster effects and Spell/Trap Card effects. Once per turn, at the start of the Battle Phase: You can Special Summon 1 Divine-Beast monster from your hand, ignoring their Summoning conditions. You can activate only 1 “Shrine of Djeser” per turn.'''
+year = 2024
+author = "Card-Majin"
+
+[[card]]
+id = 102345683
+ot = "custom"
+name = "God's Anger"
+type = "spell continuous"
+effect = '''
+Once per turn, if you control a monster whose original type is Divine-Beast: You can add 1 Spell/Trap Card that specifically lists “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and/or “The Winged Dragon of Ra”: in its text, from your Deck to your hand. You can Tribute Summon 1 Divine-Beast monster in addition to your Normal Summon/Set. (You only gain this effect once per turn.) “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and “The Winged Dragon of Ra” you control cannot activate their effects during the End Phase, also, your opponent cannot Tribute nor use them as material for a Fusion, Synchro, Xyz, or Link Summon.'''
+year = 2024
+author = "Card-Majin"
+
+[[card]]
+id = 102345684
+ot = "custom"
+name = "Hyper GOD Energy"
+type = "trap continuous"
+effect = '''
+If you control a Divine-Beast monster, you can activate this card the turn it was Set. When your opponent activates a card or effect, depending on the names of monsters you control, you can use each of the following effects of “Hyper God Energy!” once per turn:
+●"Slifer the Sky Dragon": Discard 1 card; negate the activation, and if you do, all monsters your opponent currently controls lose 1000 ATK and DEF.
+●"Obelisk the Tormentor": Tribute up to 2 other monsters, negate the activation, and if you do, inflict damage 2000 to your opponent for each Tributed monster.
+●"The Winged Dragon of Ra": Pay 1000 LP; negate the activation, and if you do, it gains 1000 ATK/DEF.'''
+year = 2024
+author = "Card-Majin"
