@@ -87,10 +87,10 @@ strings = ["", "Add 1 Spell/Trap Card that mentions Obelisk, Slifer or Ra?"]
 [[card]]
 id = 102345684
 ot = "custom"
-name = "Hyper GOD Energy"
+name = "Hyper GOD Energy!"
 type = "trap continuous"
 effect = '''
-If you control a Divine-Beast monster, you can activate this card the turn it was Set. When your opponent activates a card or effect, depending on the names of monsters you control, you can use each of the following effects of “Hyper God Energy!” once per turn:
+If you control a Divine-Beast monster, you can activate this card the turn it was Set. When your opponent activates a card or effect, depending on the names of monsters you control, you can use each of the following effects of “Hyper GOD Energy!” once per turn:
 ●"Slifer the Sky Dragon": Discard 1 card; negate the activation, and if you do, all monsters your opponent currently controls lose 1000 ATK and DEF.
 ●"Obelisk the Tormentor": Tribute up to 2 other monsters, negate the activation, and if you do, inflict damage 2000 to your opponent for each Tributed monster.
 ●"The Winged Dragon of Ra": Pay 1000 LP; negate the activation, and if you do, it gains 1000 ATK/DEF.'''
