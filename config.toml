@@ -6,7 +6,8 @@ locale = 'en'
 
 [expansion.ygo-custom-cards]
 default = true
-recipe = ['custom-cards.toml']
+locale = 'en'
+recipe = ['custom-cards-en.toml']
 
 [picset.regular]
 default = true

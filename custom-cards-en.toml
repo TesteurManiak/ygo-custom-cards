@@ -1,4 +1,3 @@
-
 [[card]]
 id = 102345678
 ot = "custom"
@@ -61,6 +60,7 @@ effect = '''
 This card can be Treated as 3 Tributes for a Tribute Summon of a Divine-Beast monster. If this card is Normal or Special Summoned: You can add 1 “Slifer the Sky Dragon”, “Obelisk the Tormentor”, or “The Winged Dragon of Ra” OR 1 card that mentions any of those cards in its text from your Deck or GY to your hand, except “Nameless Pharaoh“. During your Main Phase (Quick Effect): You can Tribute Summon 1 Level 10 monster with ? or 4000 DEF from your hand. You can use each effect of “Nameless Pharaoh” once per turn.'''
 year = 2024
 author = "Card-Majin"
+strings = ["Add 1 card that mentions Obelisk, Slifer or Ra?", "Tribute Summon 1 Level 10 monster?"]
 
 [[card]]
 id = 102345682
@@ -71,6 +71,7 @@ effect = '''
 When this card is activated: You can add 1 DIVINE monster from your Deck or GY to your hand. You can only use this effect of “Pharaoh’s Palace” once per turn. Tribute Summoned “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and “The Winged Dragon of Ra” in your Monster Zone are unaffected by your opponent's activated non-DIVINE monster effects and Spell/Trap Card effects. Once per turn, at the start of the Battle Phase: You can Special Summon 1 Divine-Beast monster from your hand, ignoring their Summoning conditions. You can activate only 1 “Shrine of Djeser” per turn.'''
 year = 2024
 author = "Card-Majin"
+strings = ["Add 1 DIVINE monster?"]
 
 [[card]]
 id = 102345683
