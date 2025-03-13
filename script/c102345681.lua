@@ -56,7 +56,7 @@ function s.tscon(e,tp,eg,ep,ev,re,r,rp)
   return Duel.IsMainPhase()
 end
 function s.tsfilter(c)
-  return c:IsLevel(10) and (c:IsDefense(4000) or c:IsDefense(-1)) and c:IsSummonable(true,nil)
+  return c:IsLevel(10) and (c:IsDefense(4000) or c:GetTextDefense()==-2) and c:IsSummonable(true,nil)
 end
 function s.tstg(e,tp,eg,ep,ev,re,r,rp,chk)
   if chk==0 then return Duel.IsExistingMatchingCard(s.tsfilter,tp,LOCATION_HAND,0,1,nil) end
