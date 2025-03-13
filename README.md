@@ -25,7 +25,7 @@ ygofab sync
 |-----------------------|-------------------------|-----------------------|
 | Obelisk the Tormentor :white_check_mark: | The Winged Dragon of Ra :white_check_mark: | Slifer the Sky Dragon :white_check_mark: |
 | <img src="pics/regular/102345678.jpg" height="200" /> | <img src="pics/regular/102345680.jpg" height="200" /> | <img src="pics/regular/102345679.jpg" height="200" /> |
-| Nameless Pharaoh :white_check_mark: | Shrine of Djeser :large_orange_diamond: | God's Anger :large_orange_diamond: |
+| Nameless Pharaoh :white_check_mark: | Shrine of Djeser :white_check_mark: | God's Anger :large_orange_diamond: |
 | <img src="pics/regular/102345681.jpg" height="200" /> | <img src="pics/regular/102345682.jpg" height="200" /> | <img src="pics/regular/102345683.jpg" height="200" /> |
 | Hyper GOD Energy :x: | | |
 | <img src="pics/regular/102345684.jpg" height="200" /> | | |

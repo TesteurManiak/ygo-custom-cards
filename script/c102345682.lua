@@ -11,6 +11,12 @@ function s.initial_effect(c)
   c:RegisterEffect(e1)
   -- protect tribute summoned gods
   local e2=Effect.CreateEffect(c)
+  e2:SetType(EFFECT_TYPE_FIELD)
+  e2:SetCode(EFFECT_IMMUNE_EFFECT)
+  e2:SetRange(LOCATION_FZONE)
+  e2:SetTargetRange(LOCATION_MZONE,0)
+  e2:SetTarget(s.immtg)
+  e2:SetValue(s.immval)
   c:RegisterEffect(e2)
   -- battle phase summon
   local e3=Effect.CreateEffect(c)
@@ -38,6 +44,20 @@ function s.activate(e,tp,eg,ep,ev,re,r,rp)
     Duel.SendtoHand(sg,nil,REASON_EFFECT)
     Duel.ConfirmCards(1-tp,sg)
   end
+end
+function s.immtg(e, c)
+  return c:IsCode(10000000, 10000010, 10000020) and c:IsSummonType(SUMMON_TYPE_TRIBUTE)
+end
+function s.immval(e, te)
+  local tp = e:GetHandlerPlayer()
+  if te:GetOwnerPlayer() == tp then return false end
+  local tc = te:GetHandler()
+  if te:IsActiveType(TYPE_MONSTER) then
+    return not tc:IsAttribute(ATTRIBUTE_DIVINE)
+  elseif te:IsActiveType(TYPE_SPELL) or te:IsActiveType(TYPE_TRAP) then
+    return true
+  end
+  return false
 end
 function s.spcon(e, tp, eg, ep, ev, re, r, rp)
   return Duel.GetTurnPlayer()==tp
