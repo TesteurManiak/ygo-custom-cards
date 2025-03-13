@@ -82,6 +82,7 @@ effect = '''
 Once per turn, if you control a monster whose original type is Divine-Beast: You can add 1 Spell/Trap Card that specifically lists “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and/or “The Winged Dragon of Ra”: in its text, from your Deck to your hand. You can Tribute Summon 1 Divine-Beast monster in addition to your Normal Summon/Set. (You only gain this effect once per turn.) “Slifer the Sky Dragon”, “Obelisk the Tormentor”, and “The Winged Dragon of Ra” you control cannot activate their effects during the End Phase, also, your opponent cannot Tribute nor use them as material for a Fusion, Synchro, Xyz, or Link Summon.'''
 year = 2024
 author = "Card-Majin"
+strings = ["", "Add 1 Spell/Trap Card that mentions Obelisk, Slifer or Ra?"]
 
 [[card]]
 id = 102345684
