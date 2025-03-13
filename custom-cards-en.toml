@@ -106,3 +106,13 @@ effect = '''
 If you control no monsters, you can activate this card from your hand. When an opponent’s monster declares an attack, or when an opponent activates a card or effect: Send 1 “The True Name” or 1 “Monster Reborn” from your hand or Deck to the GY; Special Summon 1 “Slifer the Sky Dragon”. “Obelisk the Tormentor”, or “The Winged Dragon of Ra” from your hand or Deck, ignoring its Summoning conditions, then, if you control “Shrine of Djeser”, negate that attack or activation, and if you do, destroy it. If a Divine-Beast monster you control would be destroyed by battle or sent to the GY by its own effect, you can banish this card from your GY instead.'''
 year = 2024
 author = "Card-Majin"
+
+[[card]]
+id = 102345686
+ot = "custom"
+name = "The Chosen Pharaoh"
+type = "spell"
+effect = '''
+At the start of your Main Phase 1: Reveal any number of DIVINE monsters with different names from your hand; draw cards equal to that number +1. For the rest of the turn after this card resolves, you cannot draw cards by card effects. If you control a Divine-Beast monster: You can banish this card from your GY; add 1 “The True Name” from your GY or Deck to your hand, then place 1 “Slifer the Sky Dragon”, “Obelisk the Tormentor”, or “The Winged Dragon of Ra” OR 1 card that specifically lists any of those cards in its text that is banished or from your GY on top of your Deck, except “The Chosen Pharaoh”. You can use 1 effect of “The Chosen Pharaoh” per turn and only once that turn.'''
+year = 2024
+author = "Card-Majin"
