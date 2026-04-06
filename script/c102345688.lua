@@ -1,0 +1,62 @@
+-- White Knight Lancer
+local s, id = GetID()
+function s.initial_effect(c)
+  -- special summon a White Knight monster
+  local e1 = Effect.CreateEffect(c)
+  e1:SetDescription(aux.Stringid(id, 0))
+  e1:SetCategory(CATEGORY_SPECIAL_SUMMON)
+  e1:SetType(EFFECT_TYPE_TRIGGER_O+EFFECT_TYPE_SINGLE)
+  e1:SetProperty(EFFECT_FLAG_DELAY+EFFECT_FLAG_DAMAGE_STEP+EFFECT_FLAG_DAMAGE_CAL)
+  e1:SetCode(EVENT_SUMMON_SUCCESS)
+  e1:SetCountLimit(1, id)
+  e1:SetTarget(s.sptg)
+  e1:SetOperation(s.spop)
+  c:RegisterEffect(e1)
+  local e2 = e1:Clone()
+  e2:SetCode(EVENT_FLIP_SUMMON_SUCCESS)
+  c:RegisterEffect(e2)
+  local e3 = e1:Clone()
+  e3:SetCode(EVENT_SPSUMMON_SUCCESS)
+  c:RegisterEffect(e3)
+  -- LIGHT Warriors you control gain piercing damage
+  local e4 = Effect.CreateEffect(c)
+  e4:SetType(EFFECT_TYPE_FIELD)
+  e4:SetCode(EFFECT_PIERCE)
+  e4:SetRange(LOCATION_MZONE)
+  e4:SetTargetRange(LOCATION_MZONE, 0)
+  e4:SetTarget(s.pctg)
+  c:RegisterEffect(e4)
+  -- this card deals double battle damage
+  local e5 = Effect.CreateEffect(c)
+  e5:SetType(EFFECT_TYPE_SINGLE)
+  e5:SetCode(EFFECT_CHANGE_BATTLE_DAMAGE)
+  e5:SetCondition(s.damcon)
+  e5:SetValue(aux.ChangeBattleDamage(1, DOUBLE_DAMAGE))
+  c:RegisterEffect(e5)
+end
+function s.spfilter(c, e, tp)
+  return not c:IsCode(id) and c:IsCode(102345687, 511000593) and c:IsCanBeSpecialSummoned(e, 0, tp, false, false)
+end
+function s.sptg(e, tp, eg, ep, ev, re, r, rp, chk)
+  if chk == 0 then
+    return Duel.GetLocationCount(tp, LOCATION_MZONE) > 0
+      and Duel.IsExistingMatchingCard(s.spfilter, tp, LOCATION_HAND+LOCATION_GRAVE, 0, 1, nil, e, tp)
+  end
+  Duel.SetOperationInfo(0, CATEGORY_SPECIAL_SUMMON, nil, 1, tp, LOCATION_HAND+LOCATION_GRAVE)
+end
+function s.spop(e, tp, eg, ep, ev, re, r, rp)
+  if Duel.GetLocationCount(tp, LOCATION_MZONE) <= 0 then return end
+  Duel.Hint(HINT_SELECTMSG, tp, HINTMSG_SPSUMMON)
+  local g = Duel.SelectMatchingCard(tp, s.spfilter, tp, LOCATION_HAND+LOCATION_GRAVE, 0, 1, 1, nil, e, tp)
+  if #g > 0 then
+    Duel.SpecialSummon(g, 0, tp, tp, false, false, POS_FACEUP)
+  end
+end
+function s.pctg(e, c)
+  return c:IsAttribute(ATTRIBUTE_LIGHT) and c:IsRace(RACE_WARRIOR)
+end
+function s.damcon(e, tp, eg, ep, ev, re, r, rp)
+  if Duel.GetAttacker() ~= e:GetHandler() then return false end
+  local bc = e:GetHandler():GetBattleTarget()
+  return not bc or bc:IsControler(1 - tp)
+end
