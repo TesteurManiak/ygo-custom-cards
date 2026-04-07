@@ -44,6 +44,7 @@ jobs:
 
             - name: Build and export project
               run: |
+                  mkdir -p pics/regular/field
                   ygofab make
                   ygofab export
 
