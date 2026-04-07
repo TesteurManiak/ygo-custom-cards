@@ -29,8 +29,10 @@ ygofab sync
 | <img src="pics/regular/102345681.jpg" height="200" /> | <img src="pics/regular/102345682.jpg" height="200" /> | <img src="pics/regular/102345683.jpg" height="200" /> |
 | Hyper GOD Energy! :x: | In the Name of the Gods :x: | The Chosen Pharaoh :x: |
 | <img src="pics/regular/102345684.jpg" height="200" /> | <img src="pics/regular/102345685.jpg" height="200" /> | <img src="pics/regular/102345686.jpg" height="200" /> |
-| White Knight Gardna  :large_orange_diamond: | White Knight Lancer :white_check_mark: | |
-| <img src="pics/regular/102345687.jpg" height="200" /> | <img src="pics/regular/102345688.jpg" height="200" /> | |
+| White Knight Gardna  :large_orange_diamond: | White Knight Lancer :white_check_mark: | White Knight Lord :x: |
+| <img src="pics/regular/102345687.jpg" height="200" /> | <img src="pics/regular/102345688.jpg" height="200" /> | <img src="pics/regular/102345689.jpg" height="200" /> |
+| White Knight Swordsman :x: | | | |
+| <img src="pics/regular/102345690.jpg" height="200" /> | | | |
 
 ## Credits
 
