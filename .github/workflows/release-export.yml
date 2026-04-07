@@ -42,9 +42,6 @@ jobs:
                   ./install
                   echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
-            - name: Verify YGO Fabrica installation
-              run: ygofab --help > /dev/null
-
             - name: Build and export project
               run: |
                   ygofab make
