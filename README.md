@@ -15,6 +15,14 @@ ygofab make
 ygofab sync
 ```
 
+## Pre-built archive
+
+If you do not want to build the project locally, you can download a pre-built `.zip` from the latest successful workflow run:
+
+https://github.com/TesteurManiak/ygo-custom-cards/actions/workflows/release-export.yml
+
+After downloading, move the generated `.zip` file to your EDOPro `expansions` directory.
+
 ## Card list
 
 * :white_check_mark: -> Fully scripted
