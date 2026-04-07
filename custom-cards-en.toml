@@ -180,3 +180,14 @@ effect = '''
 If this card is Normal or Special Summoned: You can add up to 2 "White Knight" cards from your Deck to your hand, then discard 1 card. You can only use this effect of “White Knight Swordsman” once per turn. During the Battle Phase, increase the ATK of "White Knight" monsters you control by 1000. While this card is in your GY, increase the ATK/DEF of "White Knight" monsters you control by 300.'''
 year = 2026
 author = "yugioh_orica"
+
+[[card]]
+id = 102345691
+ot = "custom"
+alias = 511000597
+name = "Sealed Gate"
+type = "trap normal"
+effect = '''
+(This card is always treated as a "White Knight" card.) Send up to 2 "White Knight" monsters from your Deck to the GY. If this card is destroyed; Special Summon 1 "White Knight Lord" from your hand or Deck. You can bannish this card from your GY (except the turn it was sent to the GY); negate the effect of all face-up monsters on the field, except "White Knight" monsters. You can only use each effect of “Sealed Gate” once per turn.'''
+year = 2026
+author = "yugioh_orica"
