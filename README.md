@@ -39,6 +39,7 @@ ygofab sync
 * [YGOProDeck][ygoprodeck]: Used to get some card artworks
 * [Yu-Gi-Oh! CardMaker][ygocardmaker] & [YUGILIFE][yugilife]: Used to create the card pictures
 * [Card-Majin][cardmajin] & [KaiMagination][kaimagination]: New egyptian god cards artworks and effects
+* [Yugioh Orica][yugioh_orica]: White Knight cards artworks and effects
 
 [edopro]: https://github.com/edo9300/edopro
 [edo9300]: https://github.com/edo9300
@@ -49,4 +50,5 @@ ygofab sync
 [yugilife]: https://alixsep.github.io/yugilife/#/build
 [cardmajin]: https://www.reddit.com/user/Card-Maijn/
 [kaimagination]: https://www.deviantart.com/kaimagination2500
+[yugioh_orica]: https://x.com/yugioh_orica
 
