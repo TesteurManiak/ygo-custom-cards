@@ -37,6 +37,7 @@ jobs:
                   curl -fL "$release_url" -o /tmp/ygo-fabrica/ygofab.tar.gz
                   tar -xzf /tmp/ygo-fabrica/ygofab.tar.gz -C /tmp/ygo-fabrica --strip-components=1
                   cd /tmp/ygo-fabrica
+                  mkdir -p "$HOME/.local/bin"
                   chmod +x ./install
                   ./install
                   echo "$HOME/.local/bin" >> "$GITHUB_PATH"
