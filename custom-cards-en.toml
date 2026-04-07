@@ -161,7 +161,7 @@ atk = 2000
 def = 2000
 level = 7
 effect = '''
-This face-up card on the field cannot be tributed or destroyed by battle. If this card destroys a monster by battle: Inflict 600 damage to your opponent. If this card is destroyed by your opponent: Inflict 2000 damage to your opponent. You can only use this effect of “White Knight Lord” once per turn.'''
+This face-up card on the field cannot be Tributed or destroyed by battle. If this card destroys a monster by battle: Inflict 600 damage to your opponent. If this card is destroyed by your opponent: Inflict 2000 damage to your opponent. You can only use this effect of “White Knight Lord” once per turn.'''
 year = 2026
 author = "yugioh_orica"
 

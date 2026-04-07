@@ -15,7 +15,9 @@ function s.initial_effect(c)
   -- cannot be destroyed by battle
   local e2 = Effect.CreateEffect(c)
   e2:SetType(EFFECT_TYPE_SINGLE)
+  e2:SetProperty(EFFECT_FLAG_SINGLE_RANGE)
   e2:SetCode(EFFECT_INDESTRUCTABLE_BATTLE)
+  e2:SetRange(LOCATION_MZONE)
   e2:SetValue(1)
   c:RegisterEffect(e2)
   -- graveyard battle protection
