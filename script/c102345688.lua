@@ -56,6 +56,7 @@ function s.pctg(e, c)
   return c:IsAttribute(ATTRIBUTE_LIGHT) and c:IsRace(RACE_WARRIOR)
 end
 function s.damcon(e, tp, eg, ep, ev, re, r, rp)
+  tp = e:GetHandlerPlayer()
   if Duel.GetAttacker() ~= e:GetHandler() then return false end
   local bc = e:GetHandler():GetBattleTarget()
   return not bc or bc:IsControler(1 - tp)

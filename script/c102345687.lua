@@ -22,6 +22,7 @@ function s.initial_effect(c)
   local e3 = Effect.CreateEffect(c)
   e3:SetCategory(CATEGORY_REMOVE)
   e3:SetType(EFFECT_TYPE_QUICK_O)
+  e3:SetProperty(EFFECT_FLAG_DAMAGE_STEP+EFFECT_FLAG_DAMAGE_CAL)
   e3:SetCode(EVENT_PRE_DAMAGE_CALCULATE)
   e3:SetRange(LOCATION_GRAVE)
   e3:SetCondition(s.protcon)
@@ -30,6 +31,7 @@ function s.initial_effect(c)
   c:RegisterEffect(e3)
 end
 function s.spcon(e, tp, eg, ep, ev, re, r, rp)
+  tp = e:GetHandlerPlayer()
   local ac = Duel.GetAttacker()
   return ac and ac:IsControler(1-tp)
 end
@@ -52,16 +54,23 @@ function s.battlefilter(c, tp)
   return c and c:IsControler(tp) and c:IsAttribute(ATTRIBUTE_LIGHT) and c:IsRace(RACE_WARRIOR)
 end
 function s.protcon(e, tp, eg, ep, ev, re, r, rp)
+  tp = e:GetHandlerPlayer()
   local a = Duel.GetAttacker()
   local d = Duel.GetAttackTarget()
   return s.battlefilter(a, tp) or s.battlefilter(d, tp)
 end
 function s.protcost(e, tp, eg, ep, ev, re, r, rp, chk)
   local c = e:GetHandler()
-  if chk == 0 then return c:IsAbleToRemoveAsCost() end
+  if chk == 0 then
+    if c.IsAbleToRemoveAsCost then
+      return c:IsAbleToRemoveAsCost()
+    end
+    return c:IsAbleToRemove()
+  end
   Duel.Remove(c, POS_FACEUP, REASON_COST)
 end
 function s.protop(e, tp, eg, ep, ev, re, r, rp)
+  tp = e:GetHandlerPlayer()
   local a = Duel.GetAttacker()
   local d = Duel.GetAttackTarget()
   local tc = nil
