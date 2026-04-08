@@ -39,7 +39,7 @@ After downloading, move the generated `.zip` file to your EDOPro `expansions` di
 | <img src="pics/regular/102345684.jpg" height="200" /> | <img src="pics/regular/102345685.jpg" height="200" /> | <img src="pics/regular/102345686.jpg" height="200" /> |
 | White Knight Gardna  :large_orange_diamond: | White Knight Lancer :white_check_mark: | White Knight Lord :x: |
 | <img src="pics/regular/102345687.jpg" height="200" /> | <img src="pics/regular/102345688.jpg" height="200" /> | <img src="pics/regular/102345689.jpg" height="200" /> |
-| White Knight Swordsman :large_orange_diamond: | Sealed Gate :x: | | |
+| White Knight Swordsman :white_check_mark: | Sealed Gate :x: | | |
 | <img src="pics/regular/102345690.jpg" height="200" /> | <img src="pics/regular/102345691.jpg" height="200" /> | | |
 
 ## Credits
