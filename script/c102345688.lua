@@ -1,4 +1,5 @@
 -- White Knight Lancer
+local SET_WHITE_KNIGHT = 0x155d
 local s, id = GetID()
 function s.initial_effect(c)
   -- special summon a White Knight monster
@@ -35,7 +36,7 @@ function s.initial_effect(c)
   c:RegisterEffect(e5)
 end
 function s.spfilter(c, e, tp)
-  return not c:IsCode(id) and c:IsCode(102345687, 511000593) and c:IsCanBeSpecialSummoned(e, 0, tp, false, false)
+  return c:IsMonster() and c:IsSetCard(SET_WHITE_KNIGHT) and not c:IsCode(id) and c:IsCanBeSpecialSummoned(e, 0, tp, false, false)
 end
 function s.sptg(e, tp, eg, ep, ev, re, r, rp, chk)
   if chk == 0 then
